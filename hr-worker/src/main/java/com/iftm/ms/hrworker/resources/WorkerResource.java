@@ -39,12 +39,12 @@ public class WorkerResource {
 //		int i =1;
 //		if(i == 1)
 //		throw new RuntimeException("test");
-//		
-//		try {
-//			Thread.sleep(3000L);
-//		} catch (InterruptedException e) {
-//			e.printStackTrace();
-//		}
+		
+		try {
+			Thread.sleep(4500L);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
 		logger.info("PORT = " + env.getProperty("local.server.port"));
 		
